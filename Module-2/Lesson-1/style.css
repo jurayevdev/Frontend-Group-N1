@@ -1,0 +1,46 @@
+
+
+/* hover, active, focus, visited, nth */
+/* transition */
+
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 50px auto;
+
+    /* transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transition-timing-function: ease; */
+
+    transition: all 1s ease;
+}
+
+.box:hover{
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+.box:active {
+    background-color: red;
+}
+
+input{
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+}
+
+input:focus{
+    border-radius: 20px;
+}
+
+a:visited{
+    color: aqua;
+}
+
+a:nth-child(1){
+    background-color: chocolate;
+}
