@@ -1,0 +1,44 @@
+
+
+/* ::first-letter, ::first-line, ::after, ::before, ::selection, ::placeholder, content */
+
+
+.title{
+    text-align: center;
+}
+
+/* .title::first-letter{
+    color: red;
+} */
+
+/* .text::first-line{
+    color: red;
+} */
+
+/* .title::after{
+    content: 'bac';
+    color: red;
+    margin-left: 20px;
+    background-color: aqua;
+}
+.title::before{
+    content: 'front';
+    color: red;
+    margin-right: 20px;
+    background-color: aqua;
+} */
+
+/* .text::selection{
+    background-color: aqua;
+    color: red;
+} */
+
+/* input {
+    margin: 20px auto;
+    display: block;
+    padding: 10px;
+}
+
+input::placeholder{
+    color: red;
+} */
