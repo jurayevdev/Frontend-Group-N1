@@ -1,10 +1,11 @@
-
-
 /* ::first-letter, ::first-line, ::after, ::before, ::selection, ::placeholder, content */
 
-
-.title{
-    text-align: center;
+.title {
+  text-align: center;
+  position: relative;
+  width: 250px;
+  display: inline-block;
+  /* padding: 10px; */
 }
 
 /* .title::first-letter{
@@ -15,18 +16,26 @@
     color: red;
 } */
 
-/* .title::after{
-    content: 'bac';
-    color: red;
-    margin-left: 20px;
-    background-color: aqua;
+.title::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-right: 5px solid aqua;
+  border-top: 5px solid aqua;
+  top: 0;
+  right: 0;
 }
-.title::before{
-    content: 'front';
-    color: red;
-    margin-right: 20px;
-    background-color: aqua;
-} */
+.title::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-left: 5px solid aqua;
+  border-bottom: 5px solid aqua;
+  bottom: 0;
+  left: 0;
+}
 
 /* .text::selection{
     background-color: aqua;
