@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <!-- Form elements -->
+
+    <div class="wrapper">
+        <h1>Sign Up</h1>
+        <form action="#">
+            <label for="name">
+                <p>Enter full name</p>
+                <input required type="text" id="name" placeholder="Enter full name" aria-label="Enter full name">
+            </label>
+
+            <label for="email">
+                <p>Enter email</p>
+                <input required type="email" id="email" placeholder="Enter email" aria-label="Enter email">
+            </label>
+
+            <label for="tel">
+                <p>Enter phone number</p>
+                <input required type="tel" id="tel" placeholder="Enter phone number" aria-label="Enter phone number">
+            </label>
+
+            <select name="select">
+                <option disabled selected>Select region</option>
+                <option value="1">Toshkent</option>
+                <option value="2">Namangan</option>
+                <option value="3">Andijon</option>
+                <option value="4">Farg'ona</option>
+                <option value="5">Jizzah</option>
+            </select>
+
+            <label for="birthday">
+                <p>Enter birthday</p>
+                <input required type="date" id="birthday" placeholder="Enter birthday" aria-label="Enter birthday">
+            </label>
+
+            <label class="gender" >
+                <span>Male</span><input type="radio" id="birthday" name="gender">
+                <span>Female</span><input type="radio" id="birthday" name="gender">
+            </label>
+
+            <label class="image">
+                <input type="file">
+            </label>
+
+            <label for="password">
+                <p>Enter password</p>
+                <input required type="password" id="password" placeholder="Enter password" aria-label="Enter password">
+            </label>
+
+            <button type="submit">SIGN UP</button>
+        </form>
+    </div>
+</body>
+</html>
