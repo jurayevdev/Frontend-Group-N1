@@ -1,0 +1,23 @@
+.table {
+  width: 600px;
+  border-collapse: collapse;
+  background-image: url(https://images.all-free-download.com/images/thumbjpg/orange_crush_514795.jpg);
+  /* background-position: 100px 20px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.table tr:hover {
+  background: grey;
+}
+
+body {
+  height: 1400px;
+  background-color: red;
+  /* background-image: url(https://images.all-free-download.com/images/thumbjpg/orange_crush_514795.jpg); */
+  /* background-position: 100px 20px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
