@@ -1,0 +1,59 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.grid-wrap {
+  background-color: black;
+  height: 100vh;
+  display: grid;
+  gap: 10px;
+  justify-items: stretch;
+  align-items: stretch;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-rows: 70px 450px;
+  grid-template-areas:
+    "header header header header"
+    "aside main main sidebar"
+    "footer footer footer footer";
+}
+
+.grid-item {
+  background-color: greenyellow;
+  margin: 1px;
+}
+
+/* layout */
+
+.grid-item:nth-child(5){
+    background-color: aqua;
+    grid-area: header;
+}
+
+.grid-item:nth-child(2){
+    background-color: yellow;
+    grid-area: aside;
+}
+
+.grid-item:nth-child(3){
+    background-color: green;
+    grid-area: main;
+}
+
+.grid-item:nth-child(4){
+    background-color: orange;
+    grid-area: footer;
+}
+
+.grid-item:nth-child(1){
+    background-color: purple;
+    grid-area: sidebar;
+}
